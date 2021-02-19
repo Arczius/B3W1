@@ -5,7 +5,11 @@
 </head>
 <body>
 <?php
-echo '<h1>'."hello world!".'</h1>';
+	echo '<h1>'."hello world!".'</h1>';
+?>
+<?php
+define("helloWorld", '<h1>'."hello world!".'</h1>'); 
+echo helloWorld;
 ?>
 </body>
 </html>
